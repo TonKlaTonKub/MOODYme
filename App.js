@@ -2,14 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Button from './components/Button'
+
+import Login from './screen/Login' 
+
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text>เริ่มเขียนแล้วนะ</Text>
-      <Text>MOODY me!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Login/>
 }
 
 const styles = StyleSheet.create({
