@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 
 
-const Hello = () => {
+const HelloScreen = () => {
     return (
         <ImageBackground source={require('../assets/background_login.jpg')} style={styles.container}>
             <Text>Hello Screen</Text>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default Hello
+export default HelloScreen
