@@ -8,9 +8,10 @@ import Hello from './screen/Hello';
 import Login from './screen/Login' 
 import Main from './screen/Main';
 import TestButton from './screen/TestButton'
+import Sign_in from './screen/sign_in'
 
 const App = () => {
-  return <Login/>
+  return <Sign_in/>
 }
 
 const styles = StyleSheet.create({
